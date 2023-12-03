@@ -1,0 +1,43 @@
+/* Add your CSS styles for the admin dashboard */
+/* Styles are simplified for demonstration purposes */
+h1{
+    text-align: center;
+    color: blueviolet;
+    
+  }
+  .searchInput{
+    width: 80%;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .selected {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .delete-selected {
+    float: right;
+    margin-top: 10px;
+  }
+  
