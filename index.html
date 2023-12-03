@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Admin Dashboard</h1>
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." id="searchInput" class="searchInput">
+      <button class="search-icon" onclick="search()">Search</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th><input type="checkbox" id="selectAll" onclick="selectAllRows()"></th>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="userTable">
+        <!-- User rows will be dynamically populated here -->
+      </tbody>
+    </table>
+    <div class="pagination">
+      <!-- Pagination buttons will be dynamically populated here -->
+    </div>
+    <button class="delete-selected" onclick="deleteSelectedRows()">Delete Selected</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
